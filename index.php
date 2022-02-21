@@ -13,6 +13,7 @@
 </head>
 <body>
     <div class="container1">
+        <div class="bg">
           <div class="navbar">
                 <div><img src="dist/img/logo.svg" alt="logo" width="50" height="50"></div>
                 <div>
@@ -32,6 +33,7 @@
                 <div class="app"><a href="#">Make an appointment</a></div>
                 <i class="fa-solid fa-chevron-down"></i>
             </DIV>
+        </div>
     </div>
     <div class="container2">
         <div class="col1">

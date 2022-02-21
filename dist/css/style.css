@@ -3,15 +3,21 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    
 }
 
 .container1{
     width: 100%;
     height: 350px;  
-    background-color: #cccccc;  
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5),rgba(255, 255, 0, 0.5)), url("dist/img/doctor.jpg"); 
+    /* background-color: #cccccc;   */
+  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5),rgba(255, 255, 0, 0.5)), url(/dist/img/doctor.jpg);  */
 }
-
+.bg{
+    
+    background: rgba(0, 0, 0, 0.7) url(../img/lab.jpg); 
+    background-size: cover;
+    background-blend-mode: darken;
+}
 .navbar{
     width: 90%;
     height: 50px;
@@ -24,15 +30,17 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
+.navbar img{
+    margin-left: 70px;
+}
 .navbar li{
     list-style: none;
     margin-right: 15px;
-    color: white;
+    color: rgb(147, 173, 247);
 }
 
 .navbar li:hover{
-    background-color: rgb(147, 173, 247);
+    background-color: rgb(233, 231, 143);
 }
 
 .center {
