@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container1{
+    width: 100%;
+    height: 350px;  
+    background-color: #cccccc;  
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5),rgba(255, 255, 0, 0.5)), url("dist/img/doctor.jpg"); 
+}
+
+.navbar{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li{
+    list-style: none;
+    margin-right: 15px;
+    color: white;
+}
+
+.navbar li:hover{
+    background-color: rgb(147, 173, 247);
+}
+
+.center {
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center h2, p, i {
+    color: white;
+}
+
+.center h2 {
+    margin: 0;
+}
+.center i{
+    margin-top: 30px;
+}
+
+.app{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(147, 173, 247);
+    display: block;
+    margin: 0 auto;
+}
+
+.app:hover {
+    background-color: rgb(233, 231, 143);
+}
+
+.app a {
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+
+.container2{
+    width: 90%;
+    height: 350px;  
+    border: 1px slid red;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.col1{
+    width: 30%;
+    border: 1px slid rgb(14, 3, 3);
+}
+
+.span {
+    border-bottom: 5px solid orange;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 15px;
+    color: darkgray;
+}
+.col2{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.col2 i{
+    color:rgb(147, 173, 247);
+    font-size: 30px;
+}
+
+.col2 p {
+    color: darkgray;
+}
+
+.item{
+    width: 45%;
+}
+
+.container3{
+    width: 90%;
+    background-color: rgb(147, 173, 247);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.case{
+    width:30%;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.case h4{
+    color: white;
+}
+
+.hours{
+    display: flex;
+    width: 67%;
+    border: 1px solid white;
+}
+
+.days, .time{
+    width: 50%;
+    color: white;
+    padding: 3px;
+}
